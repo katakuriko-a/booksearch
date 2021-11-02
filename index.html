@@ -13,9 +13,12 @@
     <div class="bcg"></div>
     <div class="global-wrapper">
       <div class="search">
+        <p class="en" >※英語で検索してください</p>
+        <h1 >BOOK SEARCH</h1>
+        <i class="fas fa-book"></i><br>
         <input  type="text" v-model="query" v-on:keyup.enter="getApi" > 
         <i @click="getApi" class="fas fa-search"></i>
-        <p class="en" style="color:#fff">※英語で検索してください</p>
+
       </div>
       <div class="wrapper">
         <div v-for="item in items" class="items-wrapper"> 

@@ -1,6 +1,11 @@
 body {
   margin: 0;
   padding: 0;
+  color: #fff;
+}
+
+h1 {
+  font-size: 44px;
 }
 
 .bcg {
@@ -69,11 +74,12 @@ button {
   color: #fff;
 }
 
-i {
+.fa-search {
   color: #fff;
   font-size: 32px;
   cursor: pointer;
   transform: translateY(28%);
+  margin-left: 24px;
 }
 
 .book_button a {
@@ -85,4 +91,9 @@ i {
   cursor: pointer;
   color: #fff;
   text-decoration: none;
+}
+
+.fa-book {
+  font-size: 100px;
+  margin-bottom: 64px;
 }/*# sourceMappingURL=style.css.map */

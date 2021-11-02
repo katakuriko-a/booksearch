@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bcg {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/ugur-akdemir-XT-o5O458as-unsplash.jpg);
+  background-size: cover;
+  filter: blur(2px);
+  position: fixed;
+  z-index: -1;
+  top: 0;
+}
+.bcg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(49, 49, 49, 0.5);
+}
+
+input {
+  width: 30%;
+  height: 50px;
+  border: none;
+  border-radius: 16px;
+  background-color: rgba(189, 189, 189, 0.8);
+  padding: 0 16px;
+  font-size: 16px;
+}
+
+button {
+  border: none;
+}
+
+.gloval-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.search {
+  text-align: center;
+  margin-bottom: 10%;
+  margin-top: 100px;
+}
+.search > h3 {
+  font-weight: 100;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper p {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.items-wrapper {
+  width: 30%;
+  margin: 0 auto 100px;
+  text-align: center;
+  color: #fff;
+}
+
+i {
+  color: #fff;
+  font-size: 32px;
+  cursor: pointer;
+  transform: translateY(28%);
+}
+
+.book_button a {
+  margin-top: 24px;
+  background-color: rgba(189, 189, 189, 0.8);
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

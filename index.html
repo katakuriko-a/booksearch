@@ -13,7 +13,7 @@
     <div class="bcg"></div>
     <div class="global-wrapper">
       <div class="search">
-        <input type="text" v-model="query" > 
+        <input  type="text" v-model="query" v-on:keyup.enter="getApi" > 
         <i @click="getApi" class="fas fa-search"></i>
         <p class="en" style="color:#fff">※英語で検索してください</p>
       </div>

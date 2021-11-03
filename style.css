@@ -68,10 +68,11 @@ button {
 }
 
 .items-wrapper {
-  width: 30%;
-  margin: 0 auto 100px;
+  width: 26%;
+  margin: 30px auto 120px;
   text-align: center;
   color: #fff;
+  position: relative;
 }
 
 .fa-search {
@@ -82,11 +83,14 @@ button {
   margin-left: 24px;
 }
 
-.book_button a {
-  margin-top: 24px;
+.book_button {
+  position: absolute;
+  bottom: -10%;
+  left: 0;
+  width: 100%;
   background-color: rgba(189, 189, 189, 0.8);
   display: inline-block;
-  padding: 8px 16px;
+  padding: 8px 0;
   border-radius: 8px;
   cursor: pointer;
   color: #fff;
@@ -96,4 +100,8 @@ button {
 .fa-book {
   font-size: 100px;
   margin-bottom: 64px;
+}
+
+.w100 {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
